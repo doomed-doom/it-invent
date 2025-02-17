@@ -1,0 +1,9 @@
+.side {
+	min-height: calc(100vh - 2em);
+	width: 300px;
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	border-right: 1px solid black;
+}

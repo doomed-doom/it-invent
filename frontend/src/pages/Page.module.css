@@ -1,0 +1,41 @@
+.page {
+	display: flex;
+}
+
+.main {
+	height: calc (100vh - 2em);
+	width: 100%;
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.loader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	text-align: center;
+}
+
+.fields {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	align-items: center;
+	justify-content: center;
+	max-width: 500px;
+	min-width: 300px;
+}
+
+.my_button {
+    margin: 20px !important;
+}

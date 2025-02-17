@@ -1,0 +1,35 @@
+.container {
+  overflow: auto;
+  padding: 0 5px;
+}
+
+.table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+.table__row {
+  display: table-row;
+}
+.table__cell {
+  display: table-cell;
+  min-width: 40px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+  height: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transform: all 0.3s;
+}
+.input {
+	width: 95%;
+	display: block; 
+	margin: 0 auto;
+  transform: all 0.3s;
+}
+.editIcon {
+  margin-left: 5px;
+  /* display: none; */
+}

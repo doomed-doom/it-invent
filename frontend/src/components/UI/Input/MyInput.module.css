@@ -1,0 +1,14 @@
+.input {
+	min-height: 2.75em;
+	min-width: 2.75rem;
+	border-radius: 0.75rem;
+	font-size: 0.9rem;
+	padding: 0 0.5rem;
+	border: 2px black solid;
+	width: calc(100% - 1.3rem);
+}
+
+.input:focus {
+	background-color: rgb(237, 237, 237);
+	color: black;
+}
